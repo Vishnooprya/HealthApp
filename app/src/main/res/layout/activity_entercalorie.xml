@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Entercalorie">
+
+    <LinearLayout
+        android:layout_width="325dp"
+        android:layout_height="479dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/breakfast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="breakfastpage"
+
+            android:text="Breakfast" />
+
+        <Button
+            android:id="@+id/meals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="mealpage"
+            android:text="MEALS" />
+
+        <Button
+            android:id="@+id/gravies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="gravypage"
+            android:text="GRAVIES" />
+
+        <Button
+            android:id="@+id/fruits"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:onClick="fruitpage"
+            android:text="FRUITS" />
+
+        <Button
+            android:id="@+id/snacks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="snackspage"
+            android:text="SNACKS" />
+
+        <Button
+            android:id="@+id/milk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="milkpage"
+            android:text="MILK PRODUCTS" />
+
+        <Button
+            android:id="@+id/juice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="juicepage"
+            android:text="JUICES" />
+
+        <Button
+            android:id="@+id/calorie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="addcalorie"
+            android:text="Add calorie" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="back"
+            android:text="BACK" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
